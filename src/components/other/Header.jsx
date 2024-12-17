@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { setLocalStorage } from '../../utils/localStorage'
+import { setLocalStorage } from '../../utils/LocalStorage'
 
 const Header = ({ changeUser, data }) => {
   const [greeting, setGreeting] = useState('Hello')
